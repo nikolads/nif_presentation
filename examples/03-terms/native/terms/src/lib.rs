@@ -31,7 +31,7 @@ fn term_to_string(term: Term) -> Option<String> {
             let items_strings = term
                 .into_list_iterator()
                 .unwrap()
-                .map(|item| term_to_string(item))
+                .map(term_to_string)
                 .collect::<Option<Vec<String>>>()?;
 
             let items_joined = items_strings.join(", ");
