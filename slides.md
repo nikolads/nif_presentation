@@ -385,7 +385,7 @@ pub fn my_lengthy_work() -> i64 {
 # Материали
 
 Код от примерите
-https://github.com/nikolads/nif_presentation
+https://github.com/nikolads/nif_presentation/tree/2023/examples
 
 ---
 
